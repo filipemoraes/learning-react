@@ -1,4 +1,11 @@
+import { Counter } from "./components/Counter";
+import { RepositoryList } from "./components/RepositoryList";
+
 export function App() {
-  //throw new Error('teste');
-  return <h1>Hello World JS</h1>
+  return (
+    <>
+      <RepositoryList />
+      <Counter />
+    </>
+  );
 }
